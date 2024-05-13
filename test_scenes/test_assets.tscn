@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://ik4bn7pu3813"]
+
+[ext_resource type="Texture2D" uid="uid://b1u0beomkwdw2" path="res://addons/Tiny Swords/Factions/Knights/Troops/Archer/Red/Archer_Red.png" id="1_8mc5e"]
+[ext_resource type="Texture2D" uid="uid://cbxx8tspjccmu" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png" id="2_4vvbr"]
+[ext_resource type="Texture2D" uid="uid://bp7mrnap8s4ja" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png" id="3_2o1uk"]
+[ext_resource type="Texture2D" uid="uid://bo5j5vg2tfkgp" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Torch/Red/Torch_Red.png" id="4_2thpb"]
+[ext_resource type="Texture2D" uid="uid://cd8pu0kg18ar5" path="res://addons/Tiny Swords/Factions/Goblins/Troops/TNT/Red/TNT_Red.png" id="5_ywqnb"]
+[ext_resource type="Texture2D" uid="uid://cuaiwguclu3ms" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.png" id="6_4npk2"]
+[ext_resource type="Texture2D" uid="uid://bg1eojphm38h7" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_All.png" id="7_5rrob"]
+[ext_resource type="Texture2D" uid="uid://b344ptatkduds" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Yellow/Pawn_Yellow.png" id="8_d8krf"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ArcherRed" type="Sprite2D" parent="."]
+position = Vector2(2010, 646)
+texture = ExtResource("1_8mc5e")
+
+[node name="PawnRed" type="Sprite2D" parent="."]
+position = Vector2(-225, 619)
+texture = ExtResource("2_4vvbr")
+
+[node name="WarriorRed" type="Sprite2D" parent="."]
+position = Vector2(-2582, 806)
+texture = ExtResource("3_2o1uk")
+
+[node name="TorchRed" type="Sprite2D" parent="."]
+position = Vector2(525, -907)
+texture = ExtResource("4_2thpb")
+
+[node name="TntRed" type="Sprite2D" parent="."]
+position = Vector2(1079, 2256)
+texture = ExtResource("5_ywqnb")
+
+[node name="BarrelRed" type="Sprite2D" parent="."]
+position = Vector2(-1316, 2541)
+texture = ExtResource("6_4npk2")
+
+[node name="HappySheepAll" type="Sprite2D" parent="."]
+position = Vector2(-187, 1605)
+texture = ExtResource("7_5rrob")
+
+[node name="PawnYellow" type="Sprite2D" parent="."]
+position = Vector2(-2474, -882)
+texture = ExtResource("8_d8krf")
